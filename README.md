@@ -12,7 +12,7 @@ Added Image appearance switcher with option to use &lt;picture&gt; instead of us
 To install the module from Packagist, run the following commands:
 ```sh
 composer require nortn/magento2-page-builder-advanced-image-appearance
-bin/magento module:enable NortN_PageBuilderClassPresets
+bin/magento module:enable NortN_PageBuilderImageAppearance
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```
